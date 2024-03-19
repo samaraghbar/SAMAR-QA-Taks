@@ -6,7 +6,12 @@ module.exports = defineConfig({
             
         }, 
         
-        baseUrl: "https://demo.productionready.io"
+        baseUrl:"https://demo.productionready.io",
+        screenshotOnRunFailure:true,
+        video:true,
+        videoCompression: 20,
+
+
 
        
         
